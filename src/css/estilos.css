@@ -1,0 +1,93 @@
+body {
+    font-size: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+header {
+    padding: 40px;
+}
+
+header img {
+    width: 200px;
+    margin-left: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+main .imagem {
+    max-width: 850px;
+    flex: 1;
+}
+
+main .imagem img {
+    width: 100%;
+    height: auto;
+}
+
+main aside {
+    max-width: 600px;
+    flex: 1;
+}
+
+aside h1 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+aside p {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+button {
+    padding: 15px 60px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    color: hsl(257, 40%, 49%);
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+}
+
+footer.social {
+    margin-top: 18rem;
+    text-align: end;
+}
+
+footer.social a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    line-height: 30px;
+}
+
+main aside {
+    max-width: 600px;
+    flex: 1;
+    padding-top: 5rem;
+}
+
+a:hover {
+    background-color: hsl(256, 100%, 65%);
+}
