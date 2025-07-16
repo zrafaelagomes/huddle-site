@@ -12,6 +12,10 @@
         width: 50%;
     }
 
+    aside {
+        padding-top: 0 !important;
+    }
+
     aside h1 {
         font-size: 30px;
     }
