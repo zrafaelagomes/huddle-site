@@ -9,7 +9,11 @@
     }
 
     .logo img {
-        margin: 0;
+        width: 50%;
+    }
+
+    aside h1 {
+        font-size: 30px;
     }
 
     button {
